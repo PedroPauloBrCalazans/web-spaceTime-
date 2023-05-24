@@ -24,13 +24,21 @@ export default function Home() {
       </a>
 
       {/* Hero */}
-
-      <div>
+      <div className="space-y-5">
         <Image src={nlwLogo} alt="NLW Spacetime"/>
-        <div></div>
-        <p></p>
+
+        <div className='max-w-[420px] space-y-1'>
+          <h1 className='text-5xl font-bold leading-tight text-gray-50'>Sua cápsula do tempo</h1>
+          <p className='text-lg leading-relaxed'>Colecione momentos marcantes da sua jornada e compartilhe (se quiser) com o mundo!</p>
+        </div>
+
+        <a href="" className='inline-block rounded-full bg-green-500 px-5 py-3 font-alt text-sm uppercase leading-none text-gray-900 hover:bg-green-600'>CADASTRAR LEMBRANÇA</a>
       </div>
 
+      {/* Copyright */}
+      <div className='text-sm leading-relaxed text-gray-200 hover:text-gray-100'>
+        Feito com 💚 
+      </div>
     </div>
 
     {/*Div da Direita */}
