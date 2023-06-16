@@ -46,7 +46,7 @@ export default function RootLayout({children,}: {children: React.ReactNode}) {
           </div>
     
           {/*Div da Direita */}
-          <div className="flex flex-col p-16">
+          <div className="flex max-h-screen overflow-y-scroll flex-col">
             {children}
           </div>
         </main>
